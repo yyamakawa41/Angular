@@ -12,6 +12,7 @@
 	<ul>
 		<li ng-repeat="person in students">
 			{{person.name}}: {{person.desc}}
+			<a href="#" ng-click="removeStudent(person)">Remove</a>
 		</li>
 	</ul>
 
