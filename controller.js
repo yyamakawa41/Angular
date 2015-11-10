@@ -7,6 +7,8 @@ angular.module('myApp', []).controller('myController', function($scope){
 				desc: $scope.newDesc
 			}
 		);
+		$scope.newName = "";
+		$scope.newDesc = "";
 	}
 
 	$scope.students = [
