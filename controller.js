@@ -1,5 +1,15 @@
 angular.module('myApp', []).controller('myController', function($scope){
-	$scope.items = [
+
+	$scope.addPerson = function(){
+		$scope.students.push(
+			{
+				name: $scope.newName,
+				desc: $scope.newDesc
+			}
+		);
+	}
+
+	$scope.students = [
 		{
 			name: 'Freddy',
 			desc: 'Made a cool football game'
