@@ -40,7 +40,7 @@ angular.module('myApp', []).controller('myController', function($scope){
 		{
 			name: 'Oliver',
 			desc: 'Eats 8 times/day'
-		},
+		}
 
 	];
 });
