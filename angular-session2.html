@@ -33,9 +33,9 @@
 	Search:<input ng-model="query" type="text">
 	<table border=1>
 		<tr>
-			<th><a href="" ng-click="sortField = 'name'; reverse = !reverse">Name</a></th>
-			<th><a href="" ng-click="sortField = 'desc'; reverse = !reverse">Description</a></th>
-			<th><a href="" ng-click="sortField = 'luckyNumber'; reverse = !reverse">Lucky Number</a></th>
+			<th><a href="" ng-click="sortField = '-name'; reverse = !reverse">Name</a></th>
+			<th><a href="" ng-click="sortField = '-desc'; reverse = !reverse">Description</a></th>
+			<th><a href="" ng-click="sortField = '-luckyNumber'; reverse = !reverse">Lucky Number</a></th>
 		</tr>
 		<tr ng-repeat="student in students | filter:query| orderBy:sortField:reverse">
 			<td>{{student.name}}</td>
