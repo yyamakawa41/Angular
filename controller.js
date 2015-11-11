@@ -19,27 +19,33 @@ angular.module('myApp', []).controller('myController', function($scope){
 	$scope.students = [
 		{
 			name: 'Freddy',
-			desc: 'Made a cool football game'
+			desc: 'Made a cool football game',
+			luckyNumber: 9
 		},
 		{
 			name: 'Chance',
-			desc: 'Bootsrap Guy'
+			desc: 'Bootsrap Guy',
+			luckyNumber: 11
 		},
 		{
 			name: 'Will',
-			desc: 'Wig guy'
+			desc: 'Wig guy',
+			luckyNumber: 153
 		},
 		{
 			name: 'Stephen',
-			desc: 'Awesome theme'
+			desc: 'Awesome theme',
+			luckyNumber: 40000000000
 		},
 		{
 			name: 'Griffin',
-			desc: 'DOTA2 addict'
+			desc: 'DOTA2 addict',
+			luckyNumber: 63
 		},
 		{
 			name: 'Oliver',
-			desc: 'Eats 8 times/day'
+			desc: 'Eats 8 times/day',
+			luckyNumber: 32
 		}
 
 	];
