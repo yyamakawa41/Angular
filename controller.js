@@ -1,4 +1,4 @@
-angular.module('myApp', []).controller('myController', function($scope){
+angular.module('myApp', []).controller('myController', function($scope, $http){
 
 	$scope.addPerson = function(){
 		$scope.students.push(
